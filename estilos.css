@@ -1,0 +1,491 @@
+@font-face{
+font-family:Mantana-Italic;
+src:url("img/Mantana-Italic.otf");
+}
+
+.contenedor{
+	height:auto;
+	display:flex;
+	width:100%;
+	flex-direction:column;
+	margin-right:5%;
+	
+	
+}
+body{
+	margin:0%;
+		height:auto;
+	font-family: Georgia, Palatino,serif;
+}
+main{
+	height:70%;
+	width:100%;
+	background-color:white;
+	display:flex;
+	
+	flex-direction:column;
+}
+
+
+
+header{
+	height:99vh;
+	width:100%;
+	flex-direction:column;
+	    justify-content: flex-start;
+	display:flex;
+
+	background-image:url(img/p.jpg);
+	background-size:cover;
+}
+
+	
+footer{
+	height:auto ;
+		height:18%;
+	width:100%;
+	background-color:#373737;
+	display:flex;
+	flex-direction:row;
+
+
+	    align-items: center;
+    justify-content: center;
+	color:white;
+}
+nav{
+	display:flex;
+	width:80%;
+	color:#e8cb85;
+	flex-direction: row;
+    align-items: center;
+	height:auto;
+    
+	
+}
+nav a:link, nav a:visited{
+color:white;
+text-decoration:none;	
+
+	transition:color 0.5s,;
+	display:flex;
+	width:30%;
+	justify-content: center;
+    align-items: center;
+	font-weight:bold;
+	height:100%;
+	text-shadow:1px 1x 1px black;
+	font-size:25px;
+	text-shadow:1px 1px 1px black;
+	
+}
+nav a:hover{
+	color:#03aed2;
+	
+	transition:color 0.5s, ;
+	
+	
+}
+
+
+.top{
+	display:flex;
+	width:100%;
+	height:auto;
+	background-color:rgba(6, 171, 209, 0.4);
+	font-family:Mantana-Italic;
+	
+	
+}
+
+.logo{
+	width:15%;
+	align-items:center;
+	margin-left:2%;
+	
+	
+}
+.frase{
+	display:flex;
+	height:auto;
+	width:50%;
+	flex-direction:column;
+	margin-top:5%;
+	background-color:rgba(255, 255, 255, 0.5);
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+
+	
+}
+.rom{
+	background-image:url(img/roman.jpg);
+		background-size:cover;
+	justify-content: flex-end;
+	width:50%;
+	height:40vh;
+	margin-left:5%;
+	margin-right:2%;
+	margin-top:7%;
+	margin-bottom:5%;
+	background-repeat:no-repeat;
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-end;
+	cursor:pointer;
+}
+.t1{
+	width:100%;
+	background-color:rgba(255, 255, 255, 0.5);
+
+	display:flex;
+	height:20%;
+	justify-content:center;
+	
+}
+.pil{
+	display:flex;
+	width:100%;
+	height:100%;
+	
+	
+}
+.pilee2{
+	display:flex;
+	width:100%;
+	height:100%;
+	margin-top:4%;
+	
+}
+.pilee2 h2{
+	color:white; 
+	margin-left:7%;
+	text-shadow:1px 1px 1px black;
+	font-size:22px;
+	font-family : Mantana-Italic;
+	margin-top:3%;
+text-align:none;
+}
+.min{
+	background-image:url(img/minimalist.jpg);
+	background-size:cover;
+	justify-content: flex-end;
+	width:50%;
+	height:40vh;
+	margin-left:5%;
+	margin-right:2%;
+	margin-top:7%;
+	margin-bottom:5%;
+	background-repeat:no-repeat;
+	flex-direction:column;
+	justify-content: flex-end;
+	display:flex;
+	cursor: pointer;
+}
+
+.pago{
+	width:100%;
+	background-color:#e7e7e7;
+	display:flex;
+	height:15vh;
+	
+	
+}
+.mp{
+	width:50%;
+	
+}
+.tar{
+		width:50%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+h2{
+	color:white; 
+	margin-left:7%;
+	text-shadow:1px 1px 1px black;
+	font-size:22px;
+	font-family : Mantana-Italic;
+}
+p{
+	font-family : Mantana-Italic;
+	font-size:20px;
+color:white;
+	margin-left:7%;
+	text-shadow:1px 1px 1px black;
+}
+img{
+	display:block;
+	margin:auto;
+	display:flex;
+	height:auto;
+}
+
+	.boton{
+		
+		border-radius:60%;
+		width:25%;
+		margin-left:7%;
+		
+		text-align:center;
+		color:white;
+		text-decoration:none;
+		font-weight:bold;
+		margin-bottom:4%;
+		margin-top:2%;
+		font-family:Mantana-Italic;
+	
+		
+	}
+.boton a:link, .boton a:visited{
+
+	color:white;
+	text-decoration:none;
+		font-weight:bold;
+		transition:color 0.5s, font-size 1s, background-color 1s;
+		background-color:#03aed2;
+		padding:6%;
+		border-radius:40%;
+		font-family:Mantana-Italic;
+	
+}
+.boton a:hover{
+	color:white;
+	font-size:15px;
+	background-color:#021750;
+	font-family:Mantana-Italic;
+	
+}
+h1{
+		text-shadow:1px 1px 2px black;
+	font-size:45px;
+	color:#03aed2;
+	margin-bottom:0%;
+	margin-left:7%;
+	font-family : Mantana-Italic;
+}
+
+.social h3{
+font-size:20px;
+font-family : Mantana-Italic;
+}
+.logo2{
+width:25%;	
+
+}
+.contacto{
+	display:flex;
+	width:50%;
+
+	height:auto;
+}
+.redes{
+	display:flex;
+	flex-direction:row;
+}
+.tex{
+	margin-bottom:3%;
+	margin-top:3%;
+	margin-left:2%;
+	
+}
+.tex p{
+	color:#c1bfbf;
+	font-family :Times New Roman,Roman, serif;
+}
+.tex h3{
+	
+}
+
+.contacto p{
+	font-size:15px;
+	font-family : Times New Roman, serif;
+}
+.tex h3{
+	margin-left:7%;
+}
+h3{
+	font-size:15px;
+	font-family : Mantana-Italic;
+	margin-left:2%;
+}
+.links{
+	display:flex;
+	flex-direction:column;
+	width:30%;
+	margin-bottom:3%;
+	margin-top:3%;
+	MARGIN-LEFT:5%;
+}
+.links a:link, .links a:visited{
+	color:#8d8d8d;
+	text-decoration:none;
+	margin:1%;
+	
+}
+.links a:hover{
+	color:#c1bfbf;
+}
+.r{
+	margin-bottom:3%;
+	margin-top:3%;
+	margin-left:9%
+}
+.privacidad{
+ display:flex;
+ flex-direction:column;
+ width:25%;
+}
+.privacidad p{
+	font-size:15px;
+	color:#8d8d8d;
+	text-decoration:none;
+	margin:1%;
+	font-family : Times New Roman, serif;
+}
+.visual{
+text-align:center;
+display:flex;
+flex-direction:center;
+	width:100%;
+	flex-wrap:wrap;
+}
+@media screen and (max-width:800px)
+{
+	.pil{
+		flex-direction:column;
+		text-align:center;
+		justify-content:center;
+		width:100%;
+	}
+	.cuadros{
+		flex-direction:column;
+		width:100%;
+	}
+	main{
+		width:100%;
+	}
+	.min{
+	  width:90%;	
+		
+	}
+	.rom{
+		width:90%;
+	}
+	
+
+	
+	.top{
+		
+		flex-direction:column;
+		text-align:center;
+		justify-content:center;
+	}
+	
+	nav{
+		flex-direction:column;
+        width:100%;
+		 text-align:center;
+		
+	}
+	footer{
+		width:100%;
+		flex-direction:column;
+		
+	}
+	.contacto{
+		width:100%;
+		
+		align-items:center;
+		justify-content:center;
+		flex-direction:column;
+	}
+	
+
+	nav a:link, nav a:visited{
+		font-size:20px;
+	}
+	nav a:hover{
+		font-size:25px;
+	}
+	.logo{
+		width:100%;
+		align-items:center;
+	}
+	#vlightbox1{
+		
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		
+	}
+	h1{
+		font-size:25px;
+	}
+	.links{
+		width:100%;
+	
+		align-items:center;
+		margin:0;
+		margin-left:0;
+		
+	}
+	.tex{
+		width:100%;
+		
+		text-align:center;
+		margin:0;		
+		
+	}
+	.tex h3{
+		margin:0;
+	}
+	.tex p{
+		margin-left:0;
+		
+		
+	}
+	.privacidad{
+		text-align:center;
+		width:100%;
+		margin:0;
+		
+	}
+	h3{
+		margin:0;
+	}
+	.boton{
+		width:50%;
+	}
+	.pago{
+
+	background-color:#e7e7e7;
+	height:20vh;
+	width:100%;
+	
+}
+.logo2{
+	width:100%;
+	
+}
+.logo{
+	width:100%;
+}
+.frase{
+	width:100%;
+}
+
+}
+
+
+
+
+
